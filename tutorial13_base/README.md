@@ -1,6 +1,6 @@
-# flutter_tutorial_3
+# tutorial13
 
-A new Flutter application.
+A new Flutter project.
 
 ## Getting Started
 

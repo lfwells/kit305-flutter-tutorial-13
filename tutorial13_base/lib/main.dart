@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial_3/movie_details.dart';
+
 import 'package:provider/provider.dart';
 
+import 'movie_details.dart';
 import 'movie.dart';
 
 void main() {
