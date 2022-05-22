@@ -38,7 +38,7 @@ class _MovieDetailsState extends State<MovieDetails> {
           title: Text(adding ? "Add Movie" : "Edit Movie"),
         ),
         body: Padding(
-            padding: EdgeInsets.all(8),
+            padding: const EdgeInsets.all(8),
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
@@ -50,15 +50,15 @@ class _MovieDetailsState extends State<MovieDetails> {
                       child: Column(
                         children: <Widget>[
                           TextFormField(
-                            decoration: InputDecoration(labelText: "Title"),
+                            decoration: const InputDecoration(labelText: "Title"),
                             controller: titleController,
                           ),
                           TextFormField(
-                            decoration: InputDecoration(labelText: "Year"),
+                            decoration: const InputDecoration(labelText: "Year"),
                             controller: yearController,
                           ),
                           TextFormField(
-                            decoration: InputDecoration(labelText: "Duration"),
+                            decoration: const InputDecoration(labelText: "Duration"),
                             controller: durationController,
                           ),
                           ElevatedButton.icon(onPressed: () async {//this function is asynchronous now
@@ -82,7 +82,7 @@ class _MovieDetailsState extends State<MovieDetails> {
                               //return to previous screen
                               Navigator.pop(context);
                             }
-                          }, icon: Icon(Icons.save), label: Text("Save Values"))
+                          }, icon: const Icon(Icons.save), label: const Text("Save Values"))
                         ],
                       ),
                     ),
