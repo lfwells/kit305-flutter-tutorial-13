@@ -10,7 +10,7 @@ class MovieDetails extends StatefulWidget
   const MovieDetails({Key? key, required this.id}) : super(key: key);
 
   @override
-  _MovieDetailsState createState() => _MovieDetailsState();
+  State<MovieDetails> createState() => _MovieDetailsState();
 }
 
 class _MovieDetailsState extends State<MovieDetails> {
@@ -36,6 +36,7 @@ class _MovieDetailsState extends State<MovieDetails> {
     return Scaffold(
         appBar: AppBar(
           title: Text(adding ? "Add Movie" : "Edit Movie"),
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         ),
         body: Padding(
             padding: const EdgeInsets.all(8),
