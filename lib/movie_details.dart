@@ -81,7 +81,7 @@ class _MovieDetailsState extends State<MovieDetails> {
 
 
                               //return to previous screen
-                              Navigator.pop(context);
+                              if (context.mounted)  Navigator.pop(context);
                             }
                           }, icon: const Icon(Icons.save), label: const Text("Save Values"))
                         ],
