@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage>
                     var image = movie.image;
                     return ListTile(
                       title: Text(movie.title),
-                      subtitle: Text(movie.year.toString() + " - " + movie.duration.toString() + " Minutes"),
+                      subtitle: Text("${movie.year} - ${movie.duration} Minutes"),
                       leading: image != null ? Image.network(image) : null,
 
                       onTap: () {
