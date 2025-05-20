@@ -18,7 +18,7 @@ class MovieModel extends ChangeNotifier {
   MovieModel()
   {
     add(Movie(title:"Lord of the Rings", year:2001, duration:9001, image:"https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"));
-    add(Movie(title:"The Matrix", year:1999, duration:150, image:"https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg"));
+    add(Movie(title:"The Matrix", year:1999, duration:150, image:"https://m.media-amazon.com/images/I/91-rkATc5iL.__AC_SX300_SY300_QL70_ML2_.jpg"));
   }
 
   void add(Movie item) {
